@@ -5,10 +5,10 @@ namespace DummySmartPhones.API.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class SmartPhonesConntroller : ControllerBase
+    public class SmartPhonesController : ControllerBase
     {
         private readonly ISmartPhonesService _smartPhonesService;
-        public SmartPhonesConntroller(ISmartPhonesService smartPhonesService)
+        public SmartPhonesController(ISmartPhonesService smartPhonesService)
         {
             _smartPhonesService = smartPhonesService;
         }
