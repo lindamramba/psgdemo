@@ -7,7 +7,7 @@ namespace DummySmartPhones.API.Controllers
     [Route("[controller]")]
     public class SmartPhonesConntroller : ControllerBase
     {
-        private readonly SmartPhonesService _smartPhonesService;
+        private readonly ISmartPhonesService _smartPhonesService;
         public SmartPhonesConntroller(SmartPhonesService smartPhonesService)
         {
             _smartPhonesService = smartPhonesService;

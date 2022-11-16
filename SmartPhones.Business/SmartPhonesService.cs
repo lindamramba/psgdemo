@@ -1,12 +1,9 @@
 ﻿using Newtonsoft.Json;
 using RestSharp;
-using System.Numerics;
-using System.Text.Json.Serialization;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
-namespace DummySmartPhones.Business
+namespace SmartPhones.Business
 {
-    public class SmartPhonesService
+    public class SmartPhonesService : ISmartPhonesService
     {
         public Product GetBestSmartPhone()
         {

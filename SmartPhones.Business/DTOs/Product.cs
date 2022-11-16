@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace DummySmartPhones.Business
+namespace SmartPhones.Business
 {
     public class Product
     {
