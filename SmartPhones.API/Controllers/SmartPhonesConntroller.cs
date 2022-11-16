@@ -1,4 +1,4 @@
-﻿using DummySmartPhones.Business;
+﻿using SmartPhones.Business;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DummySmartPhones.API.Controllers
@@ -8,7 +8,7 @@ namespace DummySmartPhones.API.Controllers
     public class SmartPhonesConntroller : ControllerBase
     {
         private readonly ISmartPhonesService _smartPhonesService;
-        public SmartPhonesConntroller(SmartPhonesService smartPhonesService)
+        public SmartPhonesConntroller(ISmartPhonesService smartPhonesService)
         {
             _smartPhonesService = smartPhonesService;
         }
