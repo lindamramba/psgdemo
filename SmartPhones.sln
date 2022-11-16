@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartPhones.API", "SmartPhones.API\SmartPhones.API.csproj", "{FA40048C-8719-45DA-9CA6-9FF2BDDD9355}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartPhones.Business", "SmartPhones.Business\SmartPhones.Business.csproj", "{4ABB7B29-12BC-4AB8-97B7-496D5F011E0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA40048C-8719-45DA-9CA6-9FF2BDDD9355}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA40048C-8719-45DA-9CA6-9FF2BDDD9355}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA40048C-8719-45DA-9CA6-9FF2BDDD9355}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA40048C-8719-45DA-9CA6-9FF2BDDD9355}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ABB7B29-12BC-4AB8-97B7-496D5F011E0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ABB7B29-12BC-4AB8-97B7-496D5F011E0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ABB7B29-12BC-4AB8-97B7-496D5F011E0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ABB7B29-12BC-4AB8-97B7-496D5F011E0D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ACCFE416-4975-476F-8D7B-A638574CDDAE}
+	EndGlobalSection
+EndGlobal

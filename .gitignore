@@ -20,3 +20,6 @@ msbuild.log
 msbuild.err
 msbuild.wrn
 [Ll]ogs/
+
+/SmartPhones.API/.vs/
+/.vs
